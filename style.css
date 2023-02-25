@@ -8,9 +8,9 @@
     }
 
 body {
-    background-color: black;
+    background-color: #121212;
     color: #fff;
-    padding: 65px;
+    
 }
 
 a {
@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
+    padding: 65px;
 }
 
 
@@ -70,11 +71,11 @@ a.mid_link {
 
 .first_main {
     text-align: center;
-    margin-top: 6%;
+    margin-top: 4px;
     margin-bottom: 6%;
     background-image: url(img/Group\ 195.png);
     background-repeat: no-repeat;
-    background-position: left 128% top 95%;
+    background-position: left 110% top 95%;
 }
 
 .first_main h1{
@@ -122,8 +123,92 @@ a.mid_link {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 115px;
 }
+
 
 #icon_box img {
     margin-left: 60px;
+    z-index: 1;
+}
+
+.second_main {
+    margin-bottom: 200px;
+   /*  background-image: url(img/Ellipse\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white; */
+}
+
+#whtie_effect {
+    position: absolute;
+    bottom: 25%;
+    right: 63%;
+    z-index: 1;
+}
+
+.secondMain2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    height: 457px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;   
+    background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(358.97deg, rgba(217, 217, 217, 0.5) -30%, rgba(217, 217, 217, 0) 65.01%) border-box;
+    border-radius: 17px;
+    border: 1px solid transparent;
+    padding: 60px 55px;
+}
+
+
+
+span {
+    display: block;
+    margin-top: 8px;
+}
+
+.innerbox {
+    display: flex;
+}
+
+.secondMain2 div h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.secondMain2 div a {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4EF314;
+    z-index: 1;
+}
+
+.innerbox  div h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.innerbox div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #D9D9D9;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.innerboxlast {
+    margin-top: 54px;
 }
