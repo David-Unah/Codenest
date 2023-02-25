@@ -133,11 +133,8 @@ a.mid_link {
 }
 
 .second_main {
-    margin-bottom: 200px;
-   /*  background-image: url(img/Ellipse\ 11.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 1px solid white; */
+    margin-bottom: 150px;
+    height: auto;
 }
 
 #whtie_effect {
@@ -152,7 +149,7 @@ a.mid_link {
     display: flex;
     justify-content: space-between;
     width: 1208px;
-    height: 457px;
+    height: auto;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: large;   
@@ -211,4 +208,133 @@ span {
 
 .innerboxlast {
     margin-top: 54px;
+}
+
+#thirdMain_box {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 767px;
+    background-color: #757575;
+}
+
+.trending_link {
+    padding-top: 60px;
+    padding-bottom: 57px;
+    text-align: center;
+}
+
+.trending_link a {
+    width: 150px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 50px;
+}
+
+
+#basictrending {
+    padding: 12px 40px;
+}
+
+.trending_link a:hover {
+    background-color: #2B2B2B;
+    border-color: #2B2B2B;
+}
+
+
+.getinspired_box h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 14px;
+}
+
+.getinspired_box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 28px;
+}
+
+.getinspired_box a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4EF314;
+}
+
+#beachdesign {
+    margin-top: 90px;
+}
+
+
+
+
+#tutorialProfileParent_box {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+
+.littleProfile {
+    position: absolute;
+    top: 51.34%;
+    display: flex;
+    justify-content: space-between;
+    width: 257px; /* the code after this was changed for test */
+    height: 98px;
+    background-color: #414141;
+    padding: 18px;
+    transition: height 0.7s;
+}
+
+.littleprofile_1stp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.littleprofile_2stp {
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 9px;
+    margin-top: 8px;
+    color: #FFFFFF;
+}
+
+
+/* testing code samples  */
+
+
+.littleProfile:hover {
+    opacity: 0.9;
+    height: 111px;
+}
+
+
+
+.show_reaction{
+    display: none;
+}
+
+.reaction {
+    position: relative;
+    bottom: 70px;
+    left: 15px;
+    z-index: 1;
+    margin-right: 12px;
+}
+
+
+
+.testing_hover:hover .show_reaction {
+    display: block;
+    position: absolute;
+    opacity: 1;
+
 }
