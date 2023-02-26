@@ -119,6 +119,14 @@ a.mid_link {
     border: #4EF314;
 }
 
+
+.second_main {
+    margin-bottom: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+
 #icon_box {
     display: flex;
     justify-content: center;
@@ -132,10 +140,68 @@ a.mid_link {
     z-index: 1;
 }
 
-.second_main {
-    margin-bottom: 150px;
-    height: auto;
+/* this is the css codes for the animation effects on the tect feilds icons */
+
+.sass_div {
+    position: relative; 
 }
+
+
+
+
+
+
+
+.whitesassimage {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    /* inserted animation css after this line of code */
+    animation-name: lightmovement; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lightmovement {
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+
+}
+
+
+.vuediv {
+    position: relative;
+}
+
+.whitevue {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+
+ /* the effect on hover */
+/* .sass_div:hover .whitesassimage {
+    display: block;
+} */
+
+
+
+.vuediv:hover .whitevue {
+    display: block;
+}
+
+
+
+
+/* ending of the hover and animation css */
+
+
+
+
+
+
 
 #whtie_effect {
     position: absolute;
@@ -149,7 +215,7 @@ a.mid_link {
     display: flex;
     justify-content: space-between;
     width: 1208px;
-    height: auto;
+    height: auto;   
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: large;   
