@@ -142,13 +142,32 @@ a.mid_link {
 
 /* this is the css codes for the animation effects on the tect feilds icons */
 
-.sass_div {
-    position: relative; 
+
+.react_div {
+    position: relative;
+}
+
+.white_react {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    animation-name: whitereact; 
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
 }
 
 
+@keyframes whitereact {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 
+/* this is the css code for the white sass */
+.sass_div {
+    position: relative; 
+}
 
 
 
@@ -158,8 +177,9 @@ a.mid_link {
     opacity: 0;
     /* inserted animation css after this line of code */
     animation-name: lightmovement; 
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 6s;
 
 }
 
@@ -170,16 +190,105 @@ a.mid_link {
 
 }
 
-
+ /* this is the css code for the white vue image */
 .vuediv {
     position: relative;
 }
 
 .whitevue {
-    display: none;
     position: absolute;
     bottom: 0px;
+    opacity: 0;
+    animation-name: whitevue; 
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 9s;
 }
+
+
+@keyframes whitevue {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+ /* this is the css code for the white css image */
+.cssdiv {
+    position: relative;
+}
+
+
+.whitecss {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    animation-name: whitecss; 
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 12s;
+}
+
+
+@keyframes whitecss {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+ /* this is the css code for the whitte html */
+.smliddiv {
+    position: relative;
+}
+
+.whitesmlid {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    animation-name: whitesmlid; 
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 15s;
+}
+
+
+@keyframes whitesmlid {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* this is the code for the white tailwind */
+.tailwind_div {
+    position: relative;
+}
+
+.white_tailwind {
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    animation-name: whitetailwind; 
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 18s;
+}
+
+
+@keyframes whitetailwind {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* the effect on hover */
 /* .sass_div:hover .whitesassimage {
