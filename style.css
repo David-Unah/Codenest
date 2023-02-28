@@ -641,11 +641,19 @@ span {
     margin-bottom: 140px;
 }
 
-.team_box {
-    display: flex;
+.team_div {
     width: 1086px;
     height: 345px;
     margin-top: 140px;
     margin: auto;
     background-image: url(img/Rectangle\ 90.png);
+}
+
+
+.team_box {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    height: auto;
+    
 }
