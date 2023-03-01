@@ -152,9 +152,9 @@ a.mid_link {
     bottom: 0px;
     opacity: 0;
     animation-name: whitereact; 
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 
@@ -177,8 +177,8 @@ a.mid_link {
     opacity: 0;
     /* inserted animation css after this line of code */
     animation-name: lightmovement; 
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-delay: 6s;
 
 }
@@ -200,8 +200,8 @@ a.mid_link {
     bottom: 0px;
     opacity: 0;
     animation-name: whitevue; 
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-delay: 9s;
 }
 
@@ -223,8 +223,8 @@ a.mid_link {
     bottom: 0px;
     opacity: 0;
     animation-name: whitecss; 
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-delay: 12s;
 }
 
@@ -244,8 +244,8 @@ a.mid_link {
     bottom: 0px;
     opacity: 0;
     animation-name: whitesmlid; 
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-delay: 15s;
 }
 
@@ -265,8 +265,8 @@ a.mid_link {
     bottom: 0px;
     opacity: 0;
     animation-name: whitetailwind; 
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-delay: 18s;
 }
 
@@ -642,18 +642,108 @@ span {
 }
 
 .team_div {
+    position: relative;
     width: 1086px;
     height: 345px;
     margin-top: 140px;
     margin: auto;
     background-image: url(img/Rectangle\ 90.png);
+    margin-bottom: 150px;
+}
+
+#leftbrightness {
+    position: absolute;
+    bottom: 0px;
+    right: 64%;
 }
 
 
 .team_box {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 16px;
+    left: 78px;
     display: flex;
     justify-content: space-between;
     width: 93%;
     height: auto;
+    z-index: 1;
     
+}
+
+
+.team_box h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 55px;
+    margin-bottom: 18px;
+}
+
+.team_box h2 img {
+    position: relative;
+    top: 3px;
+}
+
+.team_box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8D8D8D;
+    margin-bottom: 25px;
+}
+
+.team_box a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4EF314;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+}
+
+.footer a {
+    display: block;
+}
+
+#lasticons_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+
+
+.lastheadings {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.lastlinks {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9D9D9;
+    margin-bottom: 40px;
+
+}
+
+#lastspan {
+    position: relative;
+    bottom: 4px;
+    display: inline;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 9px;
+    color: #4EF314;
 }
